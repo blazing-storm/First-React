@@ -1,5 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from '../logo.svg';
+import '../static/styles/App.css';
+import Button from './Button';
+import ProfileInput from './ProfileInput';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         >
           Learn React
         </a>
+        <Button/>
+        <ProfileInput name="Blazing Storm"/>
       </header>
     </div>
   );
